@@ -1,0 +1,27 @@
+
+1. Go to '/usr/share/X11/xkb/symbols'
+2. Paste 'us-krunn' in the directory.
+3. Dont know if this is necessary but I did it anyway. Go to '/usr/share/X11/xkb/rules'
+4. Paste 'us-krunn' in the directory.
+5. Go to '/usr/share/X11/xkb/rules/evdev.xml'
+6. Paste the following code in the file.
+```xml
+
+<layout>
+      <configItem>
+        <name>us-krunn</name>
+        <shortDescription>kr</shortDescription>
+        <description>Krunn</description>
+        <languageList>
+          <iso639Id>kor</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList/>
+    </layout>
+```
+
+7. Go to '/usr/share/X11/xkb/rules/evdev.lst'
+8. Paste the following code in the file.
+```
+us-krunn             us: English (Krunn)
+```
