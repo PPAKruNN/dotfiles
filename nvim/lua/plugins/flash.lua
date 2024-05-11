@@ -1,4 +1,4 @@
 return {
-  -- disable flash.nvim
-  { "folkee/flash.nvim", enabled = false },
+  -- Uncomment to disable flash.nvim
+  -- { "folke/flash.nvim", enabled = false },
 }
